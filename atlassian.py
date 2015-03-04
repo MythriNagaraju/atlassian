@@ -6,12 +6,6 @@ from BeautifulSoup import BeautifulSoup
 import sys
 from collections import defaultdict
 
-#Mention class is taking caret
-#Link is taking too long?
-#link without http not being considered
-#mention assumptions
-#
-
 class Token(object):
     def __init__(self, input):
         self.input = input

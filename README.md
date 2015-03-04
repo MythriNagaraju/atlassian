@@ -10,7 +10,7 @@ Assumptions
 How to run
 ==========
 1. pip install requirements.txt
-2. python atlassian.py <input_string>
+2. python atlassian.py <<input_string>>
 
 To run tests
 ============
