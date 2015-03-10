@@ -25,7 +25,7 @@ class Token(object):
 class Mentions(Token):
     def __init__(self,input):
         super(Mentions, self).__init__(input)
-        self.regex_pattern = '^@[^\^][a-zA-z]+'
+        self.regex_pattern = '^@[a-zA-z]+'
 
     def process_token(self):
         if self.validate_token():
