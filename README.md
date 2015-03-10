@@ -10,8 +10,11 @@ Assumptions
 How to run
 ==========
 1. pip install requirements.txt
-2. python atlassian.py <input_string>
+2. python atlassian.py &lt;input string&gt;
 
 To run tests
 ============
 python test_atlassian.py
+
+
+![A simple class diagram](https://github.com/MythriNagaraju/atlassian/blob/master/UML.png)
